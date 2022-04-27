@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./images/Back\ drop\ 1.png');
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #33A0D9;
+    padding: 15px;
+    height: 9vh;
+}
+
+.navbar .logo img{
+    height: 43px;
+    position: absolute;
+    left: 6.94%;
+    top: 14px;
+}
+.navbar nav{
+    display: flex;
+    gap: 5rem;
+    position: absolute;
+    right: 30px;
+}
+.navbar nav a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Avenir Next';
+}
+.navbar nav .login
+{
+    background: #fff;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    padding: 4px 0px 1px 19px;
+    border-radius: 7px;
+}
+/* main page design*/
+.main{
+    height: 78vh;
+}
+.main div
+{
+    display: grid;
+    place-items: center;
+    padding-top: 5rem;
+}
+.main div h3
+{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-right: 18px;
+}
+.main div p{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-right: 188px;
+}
+.main div .re-enter
+{
+    padding-right: 105px;
+    padding-top: 20px;
+}
+.main div input
+{
+    width: 340px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border: 3px solid #000;
+}
+.main div #msg
+{
+    padding-right: 142px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: red;
+}
+.main div button
+{
+    margin-top: 25px;
+    width: 345px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 24px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* footer design*/
+.footer nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    background-color: #33A0D9;
+    padding: 15px;
+    height: 13vh;
+}
+.footer nav a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Avenir Next';
+}
+.footer nav .about-us
+{
+    padding-left: 8rem
+}
+
+
+/* changes page*/
+#changes-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+    flex-direction: column;
+    display: none;
+}
+#changes-page h3
+{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 117px;
+}
+#changes-page p{
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    top: 19rem;
+}
+#changes-page .p2{
+    top: 21rem;
+}
+#changes-page button
+{
+    width: 492px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
